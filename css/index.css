@@ -55,18 +55,18 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+/*index and about*/
 header,.header-div1{
     display:flex;
     justify-content:flex-start;
     align-items: flex-end;
-
-
 } 
 
 a{
    text-decoration: none; 
 
 }
+
 .header-div2 nav{
          padding: 1%;
          display: flex;
@@ -86,8 +86,7 @@ a{
         font-size: 1rem;
         color:#404040;
         
-    }
-  
+    }  
 
 .header-div1 img{
    
@@ -117,7 +116,7 @@ a{
 
 .box1{
     background-color:teal ;
-    
+
     
 }
 
@@ -164,9 +163,10 @@ a{
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    text-shadow: 0.3px 0.3px #404040;
 }
 
 p {
@@ -257,4 +257,46 @@ footer nav a {
   padding-bottom: 2%;
   border-bottom: 1px dashed black;
   margin-bottom: 2%;
+}
+.first-sec-contant{
+    display: flex;
+    justify-content:space-evenly ;
+    
+}
+.second-sec-contant{
+    display: flex;
+    justify-content:space-evenly ;
+    
+}
+.div1-contant{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between ;
+    border-bottom: 1px dashed black;
+    margin:0% 2% ;  
+    margin-bottom: 1%;
+     
+}
+.div1-contant img {
+    margin-bottom: 2%;
+}
+.button{
+    width:30%;
+    padding: 2%;
+    margin:3% 0%;
+    text-align: center;
+    border-radius: 1opx;
+    background-color:white;
+    color:black;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    border:2px solid #000;
+   
+
+}
+button:hover{
+    cursor: pointer;
+}
+.last-section{
+    margin: 3% 0%;
 }
