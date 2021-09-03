@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -55,11 +55,118 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+/*index and about*/
+header,.header-div1{
+    display:flex;
+    justify-content:flex-start;
+    align-items: flex-end;
+} 
+
+a{
+   text-decoration: none; 
+
+}
+
+.header-div2 nav{
+         padding: 1%;
+         display: flex;
+         justify-content:stretch;
+         align-items: flex-end;
+
+    }
+    nav a{
+        text-decoration: none;
+        text-shadow: 0.3px 0.3px #404040;
+        padding: 2% ;
+        padding-bottom: 0%;
+        margin:2%;
+        margin-left:15% ;       
+        text-align: center;
+        background-color: #fffafa;
+        font-size: 1rem;
+        color:#404040;
+        
+    }  
+
+.header-div1 img{
+   
+    padding:5% 0% ;
+    
+}
+.image{
+    margin: 5% 0%; 
+}
+.boxes{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-evenly;
+   
+
+}
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9,.box10{ 
+    color:white;
+    text-align: center;
+    padding: 3.5% ;
+    padding-top:4.5% ;
+    height:10vh ;
+    width:13%;
+    margin:2% ;
+}
+
+
+.box1{
+    background-color:teal ;
+
+    
+}
+
+
+
+.box2{
+    background-color: gold;
+    
+}
+.box3{
+    background-color:cadetblue ;
+   
+}
+.box4{
+    background-color:coral ;
+    
+}
+.box5{
+    background-color:crimson ;
+   
+
+}
+.box6{
+    background-color:forestgreen ;
+   
+
+}
+.box7{
+    background-color:darkorchid ;
+    
+}
+.box8{
+    background-color: hotpink;
+    
+}
+.box9{
+    background-color:indigo ;
+}
+.box10{
+    background-color:dodgerblue ;
+    padding: 3% ;
+    padding-top:4.5% ;
+
+}
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    text-shadow: 0.3px 0.3px #404040;
 }
 
 p {
@@ -141,6 +248,55 @@ footer nav {
 }
 
 footer nav a {
+    background: black;
     color: white;
     text-decoration: none;
+}
+/*About Style*/
+.about{
+  padding-bottom: 2%;
+  border-bottom: 1px dashed black;
+  margin-bottom: 2%;
+}
+.first-sec-contant{
+    display: flex;
+    justify-content:space-evenly ;
+    
+}
+.second-sec-contant{
+    display: flex;
+    justify-content:space-evenly ;
+    
+}
+.div1-contant{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between ;
+    border-bottom: 1px dashed black;
+    margin:0% 2% ;  
+    margin-bottom: 1%;
+     
+}
+.div1-contant img {
+    margin-bottom: 2%;
+}
+.button{
+    width:30%;
+    padding: 2%;
+    margin:3% 0%;
+    text-align: center;
+    border-radius: 1opx;
+    background-color:white;
+    color:black;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    border:2px solid #000;
+   
+
+}
+button:hover{
+    cursor: pointer;
+}
+.last-section{
+    margin: 3% 0%;
 }
