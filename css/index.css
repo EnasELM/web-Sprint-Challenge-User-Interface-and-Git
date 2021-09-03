@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 1px solid black;
+	
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -81,14 +81,15 @@ a{
     }
     nav a{
         text-decoration: none;
+        text-shadow: 0.3px 0.3px #404040;
         padding: 2% ;
         margin:2%;
         margin-left:15% ;       
         text-align: center;
         background-color: #fffafa;
         font-size: 1rem;
-        color: black;
-        font-family: 'Josefin Sans', sans-serif;
+        color:#404040;
+        
     }
    
 
@@ -98,8 +99,71 @@ a{
     padding-bottom:5%  ;
     
 }
+.boxes{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-evenly;
+   
+
+}
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9,.box10{ 
+    color:white;
+    text-align: center;
+    padding: 3.5% ;
+    padding-top:4.5% ;
+    height:10vh ;
+    width:13%;
+    margin:2% ;
+}
 
 
+.box1{
+    background-color:teal ;
+    
+    
+}
+
+
+
+.box2{
+    background-color: gold;
+    
+}
+.box3{
+    background-color:cadetblue ;
+   
+}
+.box4{
+    background-color:coral ;
+    
+}
+.box5{
+    background-color:crimson ;
+   
+
+}
+.box6{
+    background-color:forestgreen ;
+   
+
+}
+.box7{
+    background-color:darkorchid ;
+    
+}
+.box8{
+    background-color: hotpink;
+    
+}
+.box9{
+    background-color:indigo ;
+}
+.box10{
+    background-color:dodgerblue ;
+    padding: 3% ;
+    padding-top:4.5% ;
+
+}
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -186,6 +250,7 @@ footer nav {
 }
 
 footer nav a {
+    background: black;
     color: white;
     text-decoration: none;
 }
