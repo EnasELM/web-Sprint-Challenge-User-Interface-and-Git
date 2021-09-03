@@ -62,12 +62,7 @@ header,.header-div1{
 
 
 } 
-.amba{
-    text-align: end;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: bold;
-    font-size:3rem ;
-}
+
 a{
    text-decoration: none; 
 
@@ -83,6 +78,7 @@ a{
         text-decoration: none;
         text-shadow: 0.3px 0.3px #404040;
         padding: 2% ;
+        padding-bottom: 0%;
         margin:2%;
         margin-left:15% ;       
         text-align: center;
@@ -91,13 +87,15 @@ a{
         color:#404040;
         
     }
-   
+  
 
 .header-div1 img{
-    width: 50%;
-    height: 6vh;
-    padding-bottom:5%  ;
+   
+    padding:5% 0% ;
     
+}
+.image{
+    margin: 5% 0%; 
 }
 .boxes{
     display: flex;
@@ -253,4 +251,10 @@ footer nav a {
     background: black;
     color: white;
     text-decoration: none;
+}
+/*About Style*/
+.about{
+  padding-bottom: 2%;
+  border-bottom: 1px dashed black;
+  margin-bottom: 2%;
 }
